@@ -1,0 +1,15 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <!-- "Mark Favorite", should appear as action button if possible -->
+  <item
+      android:id="@+id/action_scan"
+      android:icon="@mipmap/baseline_find_replace_white_48"
+      android:title="@string/scan"
+      android:showAsAction="ifRoom"/>
+
+  <!-- Settings, should always be in the overflow -->
+  <item android:id="@+id/action_add"
+        android:icon="@mipmap/baseline_add_white_48"
+        android:title="@string/add"
+        android:showAsAction="ifRoom"/>
+</menu>

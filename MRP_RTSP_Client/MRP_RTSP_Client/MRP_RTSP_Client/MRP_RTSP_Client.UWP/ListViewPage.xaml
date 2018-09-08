@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="MRP_RTSP_Client.UWP.ListViewPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MRP_RTSP_Client.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="TitleBlock" HorizontalAlignment="Left" Margin="10,10,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="345" Height="37" FontSize="25"/>
+        <ListView x:Name="ItemList" HorizontalAlignment="Stretch" Margin="0,50,0,0" VerticalAlignment="Top" IsItemClickEnabled="True" ItemClick="ListView1_ItemClick" RightTapped="ItemList_RightTapped">
+            <ListView.Resources>
+                <MenuFlyout x:Name="MenuFlyoutContext" x:Key="FlyoutBaseKey">
+                    <MenuFlyoutItem x:Name="MFISubMenu1" Text="Sub Menu1" Click="MFISubMenu1_Click" />
+                </MenuFlyout>
+            </ListView.Resources>
+            <FlyoutBase.AttachedFlyout>
+                <StaticResource ResourceKey="FlyoutBaseKey" />
+            </FlyoutBase.AttachedFlyout>
+        </ListView>
+    </Grid>
+</Page>
