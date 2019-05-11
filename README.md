@@ -4,7 +4,7 @@ MRP_RTSP(MQTT in Raspberry Pi with RTSP camera server)
 Simple camera control with cross platfrom apps to Raspberry Pi Camera via MQTT
 
 ## Dependencies
-Server Side:
+# Server Side:
  Embedded Linux with Python (e.g. Raspberry Pi)<br/>
  vlc<br/>
  ffmpeg<br/>
@@ -13,7 +13,7 @@ Server Side:
  -interfaces<br/>
  -psutil<br/>
  -paho.mqtt<br/>
-Client Side:<br/>
+# Client Side:<br/>
  Visual Studio 2017<br/>
  Android 5.1 and above device<br/>
  Windows 10<br/>
