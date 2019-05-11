@@ -3,7 +3,7 @@ MRP_RTSP(MQTT in Raspberry Pi with RTSP camera server)
 # Description
 Simple camera control with cross platfrom apps to Raspberry Pi Camera via MQTT
 
-## Dependencies
+# Dependencies
 ## Server Side:
  Embedded Linux with Python (e.g. Raspberry Pi)<br/>
  vlc<br/>
