@@ -1,10 +1,10 @@
 MRP_RTSP(MQTT in Raspberry Pi with RTSP camera server)
 ========================
-## Description
+# Description
 Simple camera control with cross platfrom apps to Raspberry Pi Camera via MQTT
 
 ## Dependencies
-# Server Side:
+## Server Side:
  Embedded Linux with Python (e.g. Raspberry Pi)<br/>
  vlc<br/>
  ffmpeg<br/>
@@ -13,12 +13,12 @@ Simple camera control with cross platfrom apps to Raspberry Pi Camera via MQTT
  -interfaces<br/>
  -psutil<br/>
  -paho.mqtt<br/>
-# Client Side:<br/>
+## Client Side:<br/>
  Visual Studio 2017<br/>
  Android 5.1 and above device<br/>
  Windows 10<br/>
 
-## App Usage
+# App Usage
 Server Side:
  1. Have a copy of MRP_RTSP_Server
  2. You may run the server app by going to MRP_RTSP_Server and running ```python main.py``` from it
@@ -38,7 +38,7 @@ Client Side:
  ![Add RTSP UWP](https://raw.githubusercontent.com/kdvsolis/MRP_RTSP/master/MRP_RTSP_Client/screenshot/UWPVideoTest.PNG)
 
 
-## Credits to:
+# Credits to:
 - ZeWaren for providing a public UPnP example: https://github.com/ZeWaren/python-upnp-ssdp-example
 - Andriy Yurchuk for providing an ffmpeg command builder with his ffmpy: https://pypi.org/project/ffmpy/
 - mfkl for providing libvlc for xamarin native: https://github.com/mfkl/libvlc-nuget
